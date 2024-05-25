@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="14dp"
+    android:orientation="horizontal"
+    android:background="@drawable/border_background"
+    android:gravity="center_vertical">
+
+    <!-- FrameLayout for Image and Close Icon -->
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+
+        <ImageView
+            android:id="@+id/product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sample"
+           android:layout_gravity="top|end"/>
+    </FrameLayout>
+
+    <!-- Details Container -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genesis Vintage Runner"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deliveryTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Delivery:  3 to 4 day(s)"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity: "
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical"/>
+
+        <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp">
+
+            <!-- Background Image -->
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/quantity" />
+
+            <!-- Clickable TextView for Decrease ("-") -->
+            <TextView
+                android:id="@+id/decrease"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:text="-"
+                android:textSize="16sp"
+                android:gravity="right"
+                android:background="#00ffffff"
+                android:layout_gravity="start|center_vertical"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <!-- Clickable TextView for Quantity Display -->
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="26dp"
+                android:layout_height="20dp"
+                android:text="1"
+                android:textSize="14sp"
+                android:background="#00ffffff"
+                android:gravity="center"
+                android:layout_gravity="center" />
+
+            <!-- Clickable TextView for Increase ("+") -->
+            <TextView
+                android:id="@+id/increase"
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:text="+"
+                android:textSize="16sp"
+                android:background="#00ffffff"
+                android:gravity="left"
+                android:layout_gravity="end|center_vertical"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </FrameLayout>
+        </LinearLayout>
+
+
+
+
+        <!-- Horizontal LinearLayout for Size, Color, and Price -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="Size:  Xsmall"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="Color:  White"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="220 $"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/removeProduct"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/close"
+        android:layout_gravity="top"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.ClothingStore" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorPrimary">@color/orange</item> <!-- Define your primary color -->
+        <item name="colorAccent">@color/orange</item> <!-- Define your accent color -->
+        <item name="colorButtonNormal">@color/orange</item> <!-- Default button color -->
+        <item name="android:buttonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+
+    <style name="Theme.ClothingStore" parent="Base.Theme.ClothingStore" />
+</resources>

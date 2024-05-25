@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ClothingStore</string>
+
+    <string-array name="sizes_array">
+        <item>Extra Small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+    </string-array>
+
+    <string-array name="colors_array">
+        <item>Beige</item>
+        <item>Black</item>
+        <item>Navy</item>
+        <item>White</item>
+        <item>Brown</item>
+        <item>Grey</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etfirstname"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edittext"
+        android:hint="firstname"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/etlastname"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext"
+        android:layout_gravity="center_horizontal"
+        android:hint="lastname"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext"
+        android:layout_gravity="center_horizontal"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageButton
+        android:id="@+id/btnsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#00ffffff"
+        android:src="@drawable/signup" />
+
+
+
+</LinearLayout>

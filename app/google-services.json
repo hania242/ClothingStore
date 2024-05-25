@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "774870152025",
+    "firebase_url": "https://everydayluxe-bfc4f-default-rtdb.firebaseio.com",
+    "project_id": "everydayluxe-bfc4f",
+    "storage_bucket": "everydayluxe-bfc4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774870152025:android:19d1890915576a1ed7d248",
+        "android_client_info": {
+          "package_name": "com.example.clothingstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE_U8KRmGU8-Ujp2oGFrzoaQAGXuemRTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
